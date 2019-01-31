@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Contact  Developers Directory</title>
+	     <style>
+		         label{
+			     display:inline-block;
+			     width:150px;
+			 }
+			 
+		</style>
+	 </head>
+<body style ="margin:0; background-color:lightblue">
+	     <h1 style="margin:0; padding:5px; background-color:white;">
+	    Developers directory
+		</h1>
+		<div style ="padding-left:10px">
+		<h3>Contact Us</h3>
+		<p>please use this form to contact our number</p>
+		<form action="process.php" method="post">
+		     <p>
+		         <label for ="name">Fullname:</label>
+		         <input type="text" name="name">
+			 </p>
+			 <p>
+			     <label for ="email">Mailid:</label>
+				 <input type="text" name="email">
+			 </p>
+			 <p>
+			     <label for ="phone">Phone number:</label>
+				 <input type="text" name="phone">
+			 </p>
+			 <p>
+			     <label for="call">Best time to call:</label>
+				 <input type="radio"name="call" value="morning">morning
+				 <input type="radio"name="call" value="afternoon"checked>afternoon
+				 <input type="radio"name="call" value="evening">evening
+			 
+			 
+			 </p>
+			 <p>
+			     <label for="Budget">Budget</label>
+				 <select type="list" name="Budget">
+				 <option>--select one--</option>
+				 <option value="100-500">$100-$500</option>
+				 <option value="500-1000">$500-$1000</option>
+				 <option value="1000-1500">$1000-$1500</option>
+				 <option value="1500-2000">$1500-$2000</option>
+				 <option value="2000+">$2000+</option>
+				 <option value="not sure">not sure</option>
+				 
+				 
+				 </select>
+			 
+			 
+			 
+			 </p>
+			 <p>
+			     <label for="services">Services Needed</label>
+				 <table>
+				     <tr>
+				          <td ><input type="checkbox" name="services" value="html" checked>html</td>
+						  <td ><input type="checkbox" name="services" value="AngularJS">AngularJS</td>
+					</tr>
+					<tr>
+						  <td ><input type="checkbox" name="services" value="ecma">ecma</td>
+						  <td ><input type="checkbox" name="services" value="css"checked>css</td>
+					</tr>
+					<tr>
+					     <td><input type="checkbox" name="services" value="python">python</td>
+						 <td><input type="checkbox" name="services" value="React">React</td>
+					</tr>
+			  </p>
+			  </table>
+			  <p>
+			      <input type="submit" name="submit" value="Submit Form">
+			  </p>
+		</form>
+		</div>
+</body>
+</html>
+		

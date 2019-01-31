@@ -1,0 +1,162 @@
+*{
+	margin: 0 auto 0 auto;
+	text-align:left;
+}
+
+body{
+	Margin:0;
+	padding:0;
+	text-align:left;
+	font-size:13px;
+	font-family:arial,helvatica,sens-serif;
+	color:black;
+	background-color:lightblue;
+	background-image:url(..img.png);
+	background-size:cover;
+	
+}
+a{
+	text-decoration:none;
+}
+table tr,td,th{
+	margin:0;
+}
+table{
+	padding:10px 0;
+}
+th{
+	text-align:center;
+}
+ td{
+	 padding:5px 20px;
+ }
+h2{
+	padding-bottom:10px;
+}
+h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px  0;
+	color:darkgreen;
+	
+}
+h4{
+	font-size:15px;
+	font-weight:bold;
+	padding:7px  ;
+	color:darkgreen;
+	
+}
+
+#container{
+	width:960px;
+}
+#header{
+	width:960px;
+	height:85px;
+}
+#header h1{
+	color:green;
+	float:left;
+	font-size:45px;
+	font-family:arial;
+	padding:20px 0 0 20px;
+	
+}
+#header h2{
+	color:blue;
+	float:right;
+	padding:40px 20px 0 0;
+	
+	
+}
+#header h2 span.white-text{
+	color:red;
+}
+#menu{
+	display:block;
+	float:left;
+	clear:both;
+	width:950px;
+	height:50px;
+}
+#menu ul{
+	list-style:none;
+	padding:0;
+	margin-left:auto;
+	width:960px;
+}
+#menu li{
+	list-style:none;
+	padding:0;
+}
+#menu li a,#menu li a:visited{
+	float:left;
+	text-decoration:none;
+	color:white;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+	padding:0 13px 0 13px;
+}
+#leftmenu{
+	margin-top:15px;
+	width:190px;
+	float:left;
+	background-color:lightgreen;
+	border-radius:10px;
+	padding:15px 20px 10px 10px;
+}
+#leftmenu ul{
+	padding:0;
+	list-style:none;
+}
+#leftmenu li{
+	list-style:none;
+	padding:15px 0  8px 0;
+	border-bottom:1px dashed white;
+}
+#leftmenu a,#leftmenu a:visited{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+}
+#leftmenu h3{
+	color:white;
+	padding:0;
+	padding-bottom:8px;
+	border-bottom:white solid 2px;
+	font-size:16px;
+}
+#content{
+	display:block;
+	width:680px;
+	margin-top:15px;
+	float:left;
+	background:white;
+	border-radius:10px;
+	border:6px solid lightgreen;
+	padding:15px;
+	margin-left:15px;
+}
+.float{
+	float:right;
+	margin:15px;
+}
+.developer{
+	 width:200px;
+	 float:right;
+}
+.developer ul{
+	margin-bottom:10px;
+	list-style:none;
+	padding:0;
+}
+.developer li{
+	list-style:none;
+	line-height:0.5cm;
+}
+	
+	
+	
