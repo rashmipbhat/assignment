@@ -1,0 +1,18 @@
+body{
+    background-color: #d5dbdb;
+}
+h1{
+	color:black;
+	text-align:center;
+	font-size:50px;
+	font-family:Courier New;
+}
+.wrap{
+       background-color:  #45b39d ;
+        height: 300px;
+        width: 250px;
+        border-radius: 10px;
+        position: relative;
+        top: 80px;
+        left: 40%;
+}
